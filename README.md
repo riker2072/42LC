@@ -5,9 +5,10 @@ Remember to use a high speed micro SD card for best results when saving data.
 
 See the 42LCmoreNotes file for how data is saved.  Also 42LCtestPrograms for Hitomezashi and Nqueens test programs
 
-Files test42a05.txt, test42b05.txt, test42c05.txt, test42d05.txt and test42e05.txt will contain the Hitomezashi and Nqueens test programs.
-For Nqueens, XEQ OO (two letter O's).
-For Hitomezashi, you must rescan local labels:  in normal mode, do GTO HT, then enter PRGM mode, and exit PRGM mode (by exiting program mode, local labels are rescanned for the current program).
+Files test42a05.txt, test42b05.txt, test42c05.txt, test42d05.txt and test42e05.txt will contain the Hitomezashi and Nqueens test programs.  Remember to Load state 05 (see Config menu, below).
+
+For Nqueens, XEQ OO (two letter O's).  Results stored in reg 01 to 04 (for size 4).
+For Hitomezashi, you must rescan local labels:  in normal mode, do GTO HT, then enter PRGM mode, and exit PRGM mode (by exiting program mode, local labels are rescanned for the current program).  Remember to store size (<9) in S.
 
 The Config menu (press Shift (kbp) key.  Note, currently, must enter number first, then enter Config menu.
 
