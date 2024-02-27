@@ -1,6 +1,8 @@
 # 42LC
 42LC calculator (alpha version)
 
+Notes for 2/26/24 update:  Programs loaded on startup or from LOAD command have a re-scan of local labels.  This is necessary because if a program is run before the re-scan is done, it will not work.  Upon entry in program edit mode, and subsequent exit, an automatic re-scan is done.  This fix eliminates the need to enter and exit program edit mode.
+
 Remember to use a high speed micro SD card for best results when saving data.
 
 See the 42LCmoreNotes file for how data is saved.  Also 42LCtestPrograms for Hitomezashi and Nqueens test programs
