@@ -1,6 +1,12 @@
 # 42LC
 42LC calculator (alpha version)
 
+Note for 3/4/24 update:  Added INPUT command.  The following program codes are used (when stored in file) :
+62xx for INPUT var
+63xx for INPUT reg
+66xx for INPUT ind var
+67xx for INPUT ind reg
+
 Notes for 2/26/24 update:  Programs loaded on startup or from LOAD command have a re-scan of local labels.  This is necessary because if a program is run before the re-scan is done, it will not work.  Upon entry in program edit mode, and subsequent exit, an automatic re-scan is done.  This fix eliminates the need to enter and exit program edit mode.
 
 Remember to use a high speed micro SD card for best results when saving data.
