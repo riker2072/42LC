@@ -1,7 +1,7 @@
 # 42LC
 42LC calculator (alpha version)
 
-Note for 3/4/24 update:  Added INPUT command.  The following program codes are used (when stored in file) :
+Note for 3/4/24 update:  Added INPUT command.  When done entering the number, use ENTER (instead of R/S).  The following program codes are used (when stored in file) :
 62xx for INPUT var,
 63xx for INPUT reg,
 66xx for INPUT ind var,
